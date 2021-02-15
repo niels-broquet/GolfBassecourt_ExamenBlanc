@@ -1,20 +1,39 @@
 body {
     background-color: white;
 }
+
 h1{
     color:#388E3C;
 }
+
 h2, h3, h4, h5, h6, a{
     color:#4CAF50;
 }
+
 a{
     text-decoration: none;
 }
+
 a:hover {
     color:#CDDC39
 }
+/******************************************************************************************************************
+en-tête
+ *******************************************************************************************************************/
+
 header {
     padding-top:20px;
     background-color: #4CAF50;
-    border-top: 20px #388E3C;
+    border-top: 20px solid #388E3C;
+}
+
+header h1 {
+    display:none;
+}
+header a img {
+text-align: center;
+}
+
+.menu{
+    display inline-block;
 }
