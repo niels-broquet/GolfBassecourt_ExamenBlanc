@@ -37,3 +37,23 @@ text-align: center;
 .menu{
     display inline-block;
 }
+/*
+tableau
+ */
+.en-tete-tableau {
+    background-color: #C8E6C9;
+    border-collapse: collapse;
+  font-size: 80%;
+    padding-bottom: 5px;
+}
+td {
+    border: #C8E6C9 solid 1px;
+    border-collapse: collapse;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+
+o Les cellules d’entête et de pied ont un fond vert clair
+o Les cellules de données contenant un prix ont un texte aligné à droite.
+o Le texte du pied du tableau à une taille de 80%, est aligné à droite et ne doit pas être mis en gras.
